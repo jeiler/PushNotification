@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    id="com.phonegap.plugins.PushPlugin"
-    version="2.5.0">
+    id="com.phonegap.wiser.plugins.PushPlugin"
+    version="0.01-2.5.0">
 
   <name>PushPlugin</name>
 	<author>Bob Easterday</author>
-    <url>https://github.com/Telerik-Verified-Plugins/PushNotification</url>
+    <url>https://github.com/Schneider-Electric-Wiser/PushNotification</url>
 	<description>
 		This plugin allows your application to receive push notifications on Android, iOS, WP8 and Windows8 devices.
     Android uses Google Cloud Messaging.
     iOS uses Apple APNS Notifications.
     WP8 uses Microsoft MPNS Notifications.
     Windows8 uses Microsoft WNS Notifications.
+copied from:
+        https://github.com/Telerik-Verified-Plugins/PushNotification
 	</description>
 
 	<license>MIT</license>
