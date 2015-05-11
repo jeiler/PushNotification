@@ -181,8 +181,11 @@ public class PushPlugin extends CordovaPlugin {
 	private SharedPreferences getGCMPreferences(Context context) {
 		// This sample app persists the registration ID in shared preferences, but
 		// how you store the regID in your app is up to you.
-		Log.d(TAG, "Activity: " + getApplicationActivity().toString());
-		return context.getSharedPreferences(getApplicationActivity().toString(), Context.MODE_PRIVATE);
+		//Log.d(TAG, "Activity: " + getApplicationActivity().toString());
+		//return context.getSharedPreferences(getApplicationActivity().toString(), Context.MODE_PRIVATE);
+		final String location = "PushPluginPreferences";
+		Log.d(TAG, "getGCMPreferences: " + location);
+		return context.getSharedPreferences(location, Context.MODE_PRIVATE);
 	}
 
 	/**
