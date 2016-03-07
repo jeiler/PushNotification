@@ -1,0 +1,37 @@
+{
+  "name": "schneider-electric-cordova-plugin-push",
+  "version": "0.0.4",
+  "description": "\n\n        BASED ON 2.5.0\n\t\tThis plugin allows your application to receive push notifications on Android, iOS, WP8 and Windows8 devices.\n    Android uses Google Cloud Messaging.\n    iOS uses Apple APNS Notifications.\n    WP8 uses Microsoft MPNS Notifications.\n    Windows8 uses Microsoft WNS Notifications.\ncopied from:\n        https://github.com/Telerik-Verified-Plugins/PushNotification\n\t",
+  "cordova": {
+    "id": "schneider-electric-cordova-plugin-push",
+    "platforms": [
+      "android",
+      "ios",
+      "wp8",
+      "windows8"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeiler/PushNotification.git"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios",
+    "cordova-wp8",
+    "cordova-windows8"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "author": "Schneider Electric",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jeiler/PushNotification/issues"
+  },
+  "homepage": "https://github.com/jeiler/PushNotification#readme"
+}
